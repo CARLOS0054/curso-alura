@@ -1,0 +1,33 @@
+// SE O RESULTADO É INDENTICO USAMOS:
+"A"==="B";
+
+// SE O RESULTADO NÃO É IDENTICO USAMOS:
+"A"!=="B";
+
+// SE O RESULTADO É MAIOR QUE, USAMOS: 
+
+10> 20
+// O JAVASCRIPT NOS DIRÁ SE É TRUE OR FALSE
+
+// SE O RESULTADO É MENOR QUE, USAMOS:
+10<20;
+// O JAVASCRIPT NOS DIRÁ SE É TRUE OR FALSE
+
+// SE FOR IGUAL OU MAIOR QUE USAMOS:
+10>=5;
+// O JAVASCRIPT NOS DIRÁ SE É TRUE OR FALSE
+
+// SE O RESULTADO FOR MENOR OU IGUAL QUE USAMOS:
+10<=7;
+// O JAVASCRIPT NOS DIRÁ SE É TRUE OR FALSE
+
+// EXERCÍCIOS
+// VAMOS FAZER UM SISTEMA DE NOTAS, SE A MÉDIA DO ALUNO FOR IGUAL OU MAIOR QUE 5 ESTA CERTO, CASO NÃO FOR SERA FALSO.
+
+let nota= Number(prompt("digite a nota do seu primeiro bimestre."));
+let nota1=Number(prompt("digite a nota do segundo bimestre."));
+
+let resutlado= (nota+nota1)/2;
+
+
+if(resutlado >=5){alert("VOCE FOI APROVADO, PARABÉNS PELO RESULTADO")}

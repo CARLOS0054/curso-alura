@@ -1,0 +1,75 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+header {
+    background-image: url('terra-grande.jpg');
+    background-size: cover;
+    background-position:center;
+    height: 400px; /* Ajuste a altura conforme necessário */
+    margin: 0;
+    padding: 0;
+    position: relative; /* Importante para posicionar os textos sobre a imagem */
+}
+
+h1{
+    font-size: larger;
+    color: black;
+    text-transform: uppercase;
+    text-shadow: 10px 10px 5px rgba(0,0, 0, 2);
+ }
+ header button{
+    margin-left: 450px;
+    margin-top:575px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: whitesmoke;
+    color: black;
+    border: none;
+
+    height: 40px;
+    
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; /* Cor do texto sobre a imagem */
+}
+
+.page-title {
+    font-size: 36px;
+    margin: 0;
+}
+
+main {
+    padding: 20px 0;
+}
+
+section {
+    margin-bottom: 30px;
+    color: white; /* Cor do texto no corpo do site */
+}
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}

@@ -1,0 +1,38 @@
+/* Estilizando o cabeçalho do modal */
+.modal-header {
+    background-color: #297aca;
+    border-bottom: 1px solid #0c4986;
+  }
+  
+  /* Estilizando o corpo do modal */
+  .modal-body {
+    font-size: 18px;
+    color: black;
+    background-color: rgb(28, 116, 189);
+  }
+  
+  /* Estilizando o rodapé do modal */
+  .modal-footer {
+    background-color: #297aca;
+    border-top: 0px solid #dee2e6;
+  }
+  
+  /* Estilizando o botão de fechamento */
+  .modal-header .btn-close {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  /* Personalizando o tamanho do modal */
+  .modal-dialog {
+    max-width: 600px;
+  }
+  
+  /* Adicionando uma sombra ao modal */
+  .modal-content {
+    
+    box-shadow: 0 20px 10px black ;
+    border-color: #297aca  80px;
+  };
+  
+  

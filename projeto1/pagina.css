@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(123, 187, 240);
+    color: black ;
+}
+h1{
+    color: hwb(0 0% 100%);
+    font-size: large;
+    margin: 18px;
+    margin-bottom: 18px;
+    text-align: center;
+    text-decoration:underline;
+   
+}
+h1 {
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 1); /* Exemplo: sombra deslocada 2px horizontalmente e 2px verticalmente, com um desfoque de 4px e cor preta com 50% de opacidade */
+  }
+  
